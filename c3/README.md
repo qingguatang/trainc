@@ -7,3 +7,6 @@
 
 
 ## 2. 打字练习
+
+- [灵感来源](https://www.typingbolt.com/)
+- [C参考手册](https://zh.cppreference.com/w/c)
