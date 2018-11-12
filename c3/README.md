@@ -5,8 +5,22 @@
 - [ASCII码](https://web.cs.dal.ca/~zyu/ascii.html)
 
 
+## 2. 输入重定向
 
-## 2. 打字练习
+- [ASCII蝴蝶](http://ascii.co.uk/art/butterfly)
+
+
+## 3. 打字练习
+
+- 获得当前时间。
 
 - [灵感来源](https://www.typingbolt.com/)
 - [C参考手册](https://zh.cppreference.com/w/c)
+
+
+## 4. 问题的解决
+
+计算打字速率和正确率
+
+- 分割句子成单词
+

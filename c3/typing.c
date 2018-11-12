@@ -13,6 +13,9 @@ int main(void) {
     "with you playing Croquet"
   };
 
+//  char str[] = {'a', 'b', 'c', 'd', 'e', '\0'};
+//  printf("%s\n", str);
+
 //  printf("%d", sizeof(sentences));
   int size = sizeof(sentences) / sizeof(sentences[0]);
 
