@@ -6,6 +6,8 @@
 - 控制台输出颜色 [color.c](color.c)
 - 256色和循环 [color256.c](color256.c)
 - 蝴蝶和输入重定向 [butterfly.c](butterfly.c)
+    - 蝴蝶1 [butterfly.txt](butterfly.txt)
+    - 蝴蝶2 [butterfly2.txt](butterfly2.txt)
 - 打字练习 [typing.c](typing.c)
 
 
