@@ -28,8 +28,6 @@
 
 ### 3. 做一个打字练习的游戏
 
-- 获得当前时间。
-
 - [灵感来源](https://www.typingbolt.com/)
 - [C参考手册](https://zh.cppreference.com/w/c)
 
