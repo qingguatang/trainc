@@ -6,7 +6,7 @@
 int main(void) {
 //  int list = {1, 2, 3};
 //  char words = {'a', 'b', 'c'};
-  char* sentences[] = {
+  char *sentences[] = {
     "We shared the summer we go down to Cancun",
     "No money makes that kind of hard to do",
     "Forget the beach I'd rather be here",
@@ -31,12 +31,12 @@ int main(void) {
     int count = 0;
     int correct_count = 0;
     char *token = strtok(input, " ");
-    while(token) {
+    while (token) {
 //      puts(token);
       count++;
 //      count = count + 1;
 
-      char* pos = strstr(sentences[i], token);
+      char *pos = strstr(sentences[i], token);
       if (pos) {
         correct_count++;
       } else {

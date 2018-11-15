@@ -286,47 +286,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="f1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="f1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="f1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="f2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="f2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="f2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="f3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="f3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="f3">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="f4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="f4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="f4">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="main">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="p2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="p2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="p2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="p3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="p3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="p3">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="p4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="p4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="p4">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="palindrome" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="palindrome" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="palindrome">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -341,15 +301,7 @@
       <item itemvalue="Application.butterfly" />
       <item itemvalue="Application.color" />
       <item itemvalue="Application.color256" />
-      <item itemvalue="Application.f1" />
-      <item itemvalue="Application.f2" />
-      <item itemvalue="Application.f3" />
-      <item itemvalue="Application.f4" />
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.p2" />
-      <item itemvalue="Application.p3" />
-      <item itemvalue="Application.p4" />
-      <item itemvalue="Application.palindrome" />
       <item itemvalue="Application.typing" />
     </list>
   </component>
