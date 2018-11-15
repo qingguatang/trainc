@@ -1,6 +1,15 @@
 ## 使用函数组织代码
 
 
+- 热身
+
+数组求和
+
+提取函数
+
+认识函数的参数
+
+
 - [color16](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 
