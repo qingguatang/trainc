@@ -25,18 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c4/animals.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/f1.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/f1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/f2.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/f2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/f3.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/f3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/f4.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/f4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/p2.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/p2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/p3.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/p3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/p4.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/p4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/palindrome.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/palindrome.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4/animals.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4/animals.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,10 +70,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LLDB" value="4" />
-          <entry key="c" value="26749" />
+          <entry key="c" value="27097" />
           <entry key="cpp" value="37" />
           <entry key="h" value="32" />
-          <entry key="md" value="2600" />
+          <entry key="md" value="2672" />
           <entry key="txt" value="900" />
         </counts>
       </usages-collector>
@@ -91,8 +81,8 @@
         <counts>
           <entry key="CMakeLists.txt" value="892" />
           <entry key="LLDBCommands" value="4" />
-          <entry key="Markdown" value="2600" />
-          <entry key="ObjectiveC" value="26818" />
+          <entry key="Markdown" value="2672" />
+          <entry key="ObjectiveC" value="27166" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -114,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c4/animals.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="565">
+              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -124,8 +114,8 @@
         <entry file="file://$PROJECT_DIR$/c4-2/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="328">
-                <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <first_editor relative-caret-position="332">
+                <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -299,7 +289,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60079000" />
+    <option name="totallyTimeSpent" value="60612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -516,8 +506,8 @@
     <entry file="file://$PROJECT_DIR$/c4-2/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="328">
-            <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <first_editor relative-caret-position="332">
+            <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
@@ -525,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/animals.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="565">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
         </state>
       </provider>
     </entry>

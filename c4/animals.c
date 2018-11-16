@@ -21,4 +21,33 @@ int main(void) {
   int index = (year - start) % 12;
   char *zodiac = animals[index];
   printf("属%s", zodiac);
+
+
+  char *signs[] = {
+    "水瓶座",
+    "双子座",
+    "牡羊座",
+    "金牛座",
+    "双子座",
+    "巨蟹座",
+    "狮子座",
+    "处女座",
+    "天秤座",
+    "天蝎座",
+    "射手座",
+    "摩羯座"
+  };
+
+  int sindex = month - 1;
+  if (day < 21) {
+    sindex--;
+    if (sindex < 0) {
+      sindex = 11;
+    }
+  }
+
+  char *sign = signs[sindex];
+
+  printf(" %s", sign);
 }
+

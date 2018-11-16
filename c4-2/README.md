@@ -24,6 +24,8 @@ https://zh.wikipedia.org/wiki/%E6%A5%94%E5%BD%A2%E6%96%87%E5%AD%97
 https://zh.wikipedia.org/wiki/%E5%85%AD%E5%8D%81%E9%80%B2%E5%88%B6
 
 
+[星座参考](https://astrodoor.cc/keyword/sign.jsp)
+
 《文明之光》
 
 ## 使用函数组织代码
