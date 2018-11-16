@@ -12,4 +12,5 @@ add_executable(typing c3/typing.c)
 add_executable(animals c4/animals.c)
 add_executable(lottery c4/lottery.c)
 add_executable(time c4/time.c)
+add_executable(pointer c4/pointer.c)
 
