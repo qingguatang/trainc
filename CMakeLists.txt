@@ -10,4 +10,5 @@ add_executable(butterfly c3/butterfly.c)
 add_executable(typing c3/typing.c)
 
 add_executable(animals c4/animals.c)
+add_executable(lottery c4/lottery.c)
 

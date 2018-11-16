@@ -14,6 +14,7 @@
 星期几
 
 
+
 彩蛋
 
 六十进制
@@ -25,6 +26,9 @@ https://zh.wikipedia.org/wiki/%E5%85%AD%E5%8D%81%E9%80%B2%E5%88%B6
 
 
 [星座参考](https://astrodoor.cc/keyword/sign.jsp)
+
+习题课
+什么是随机数
 
 《文明之光》
 
