@@ -1,13 +1,44 @@
+例子
+
+生肖
+鼠、牛、虎、兔、龙、蛇、马、羊、猴、鸡、狗、猪
+星座
+
+天干
+地支
+
+闰年
+
+4年一闰，百年不闰，400年一闰
+
+星期几
+
+
+彩蛋
+
+六十进制
+输出巴比伦语。
+
+https://zh.wikipedia.org/wiki/%E6%A5%94%E5%BD%A2%E6%96%87%E5%AD%97
+
+https://zh.wikipedia.org/wiki/%E5%85%AD%E5%8D%81%E9%80%B2%E5%88%B6
+
+
+《文明之光》
+
 ## 使用函数组织代码
 
-
 - 热身
+
+- [生肖](https://zh.wikipedia.org/wiki/%E7%94%9F%E8%82%96)
 
 数组求和
 
 提取函数
 
 认识函数的参数
+
+
 
 
 - [color16](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
