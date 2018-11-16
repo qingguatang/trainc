@@ -14,22 +14,8 @@ char *getAnimal(int year) {
   return zodiac;
 }
 
-
-int main(void) {
-  int year;
-  int month;
-  int day;
-
-  printf("你的生日是？");
-  scanf("%d %d %d", &year, &month, &day);
-
-  printf("%d年%d月%d日 ", year, month, day);
-
-  char *zodiac = getAnimal(year);
-  printf("属%s", zodiac);
-
-
-  char *signs[] = {
+char *getSign(int month, int day) {
+  static char *signs[] = {
     "水瓶座",
     "双子座",
     "牡羊座",
@@ -52,8 +38,24 @@ int main(void) {
     }
   }
 
-  char *sign = signs[sindex];
+  return signs[sindex];
+}
 
+
+int main(void) {
+  int year;
+  int month;
+  int day;
+
+  printf("你的生日是？");
+  scanf("%d %d %d", &year, &month, &day);
+
+  printf("%d年%d月%d日 ", year, month, day);
+
+  char *zodiac = getAnimal(year);
+  printf("属%s", zodiac);
+
+  char *sign = getSign(month, day);
   printf(" %s", sign);
 }
 
