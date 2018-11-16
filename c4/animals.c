@@ -57,5 +57,19 @@ int main(void) {
 
   char *sign = getSign(month, day);
   printf(" %s", sign);
+
+  char *sky[] = {"甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"};
+  char *ground[] = {"子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"};
+  int index = year - 4;
+  int k = 0;
+  int j = 0;
+  for (int i = 0; i < index; i++) {
+    k = (k + 1) % 10;
+    j = (j + 1) % 12;
+  }
+
+  // 函数返回两个值呢?
+  printf(" %s%s年", sky[k], ground[j]);
 }
+
 

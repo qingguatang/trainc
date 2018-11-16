@@ -27,21 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/time.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/union-lottery.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/f1.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/f1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/f2.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/f2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/f3.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/f3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/f4.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/f4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/p2.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/p2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/p3.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/p3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/p4.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/p4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/palindrome.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/palindrome.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/lottery.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4/lottery.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4/animals.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4/animals.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LLDB" value="4" />
-          <entry key="c" value="34418" />
+          <entry key="c" value="35028" />
           <entry key="cpp" value="37" />
           <entry key="h" value="32" />
           <entry key="md" value="2762" />
@@ -97,7 +83,7 @@
           <entry key="CMakeLists.txt" value="1102" />
           <entry key="LLDBCommands" value="4" />
           <entry key="Markdown" value="2762" />
-          <entry key="ObjectiveC" value="34487" />
+          <entry key="ObjectiveC" value="35097" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -107,11 +93,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c4/lottery.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="236">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -143,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c4/animals.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="431">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -213,13 +199,13 @@
         <option value="$PROJECT_DIR$/c3/typing.c" />
         <option value="$PROJECT_DIR$/c3/main.c" />
         <option value="$PROJECT_DIR$/c3/README.md" />
-        <option value="$PROJECT_DIR$/c4/animals.c" />
         <option value="$PROJECT_DIR$/c4-2/README.md" />
         <option value="$PROJECT_DIR$/c4/union-lottery.c" />
         <option value="$PROJECT_DIR$/c4/README.md" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/c4/time.c" />
         <option value="$PROJECT_DIR$/c4/lottery.c" />
+        <option value="$PROJECT_DIR$/c4/animals.c" />
       </list>
     </option>
   </component>
@@ -286,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lottery">
+  <component name="RunManager" selected="Application.animals">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -367,18 +353,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70586000" />
+    <option name="totallyTimeSpent" value="71497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.10622711" />
       <window_info id="Structure" order="1" sideWeight="0.3188908" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25882354" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24278075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24171123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -656,20 +641,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4/animals.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c4/lottery.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="236">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/animals.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
