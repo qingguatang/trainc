@@ -1,6 +1,20 @@
 #include <stdio.h>
 
 
+char *getAnimal(int year) {
+  static char *animals[] = {
+    "鼠", "牛", "虎", "兔", "龙", "蛇",
+    "马", "羊", "猴", "鸡", "狗", "猪"
+  };
+
+  int start = 1900;  // 这一年属鼠
+
+  int index = (year - start) % 12;
+  char *zodiac = animals[index];
+  return zodiac;
+}
+
+
 int main(void) {
   int year;
   int month;
@@ -11,15 +25,7 @@ int main(void) {
 
   printf("%d年%d月%d日 ", year, month, day);
 
-  char *animals[] = {
-    "鼠", "牛", "虎", "兔", "龙", "蛇",
-    "马", "羊", "猴", "鸡", "狗", "猪"
-  };
-
-  int start = 1900;  // 这一年属鼠
-
-  int index = (year - start) % 12;
-  char *zodiac = animals[index];
+  char *zodiac = getAnimal(year);
   printf("属%s", zodiac);
 
 
