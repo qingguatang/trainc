@@ -8,6 +8,7 @@
       <config projectName="trainc" targetName="lottery" />
       <config projectName="trainc" targetName="p4" />
       <config projectName="trainc" targetName="p3" />
+      <config projectName="trainc" targetName="time" />
       <config projectName="trainc" targetName="typing" />
       <config projectName="trainc" targetName="f4" />
       <config projectName="trainc" targetName="f3" />
@@ -26,10 +27,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c4/lottery.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/time.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/union-lottery.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/c4-2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/f1.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/f1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/f2.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/f2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/f3.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/f3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/f4.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/f4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/p2.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/p2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/p3.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/p3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/p4.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/p4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4-2/palindrome.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4-3/palindrome.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4/lottery.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4/lottery.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,38 +66,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="99" />
-          <entry key="cpp" value="3" />
+          <entry key="c" value="102" />
+          <entry key="cpp" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="h" value="10" />
-          <entry key="md" value="21" />
+          <entry key="md" value="22" />
           <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="16" />
-          <entry key="Markdown" value="21" />
-          <entry key="ObjectiveC" value="112" />
+          <entry key="Markdown" value="22" />
+          <entry key="ObjectiveC" value="116" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LLDB" value="4" />
-          <entry key="c" value="30873" />
+          <entry key="c" value="34418" />
           <entry key="cpp" value="37" />
           <entry key="h" value="32" />
-          <entry key="md" value="2731" />
-          <entry key="txt" value="954" />
+          <entry key="md" value="2762" />
+          <entry key="txt" value="1110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="946" />
+          <entry key="CMakeLists.txt" value="1102" />
           <entry key="LLDBCommands" value="4" />
-          <entry key="Markdown" value="2731" />
-          <entry key="ObjectiveC" value="30942" />
+          <entry key="Markdown" value="2762" />
+          <entry key="ObjectiveC" value="34487" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -98,8 +110,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c4/lottery.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="174">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c4/time.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c4/union-lottery.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -110,8 +146,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c4/animals.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="215">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c4/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="29">
+                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -126,7 +174,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c4-2/README.md">
+        <entry file="file://$PROJECT_DIR$/c4-3/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="232">
@@ -165,10 +213,12 @@
         <option value="$PROJECT_DIR$/c3/typing.c" />
         <option value="$PROJECT_DIR$/c3/main.c" />
         <option value="$PROJECT_DIR$/c3/README.md" />
-        <option value="$PROJECT_DIR$/c4/README.md" />
         <option value="$PROJECT_DIR$/c4/animals.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/c4-2/README.md" />
+        <option value="$PROJECT_DIR$/c4/union-lottery.c" />
+        <option value="$PROJECT_DIR$/c4/README.md" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/c4/time.c" />
         <option value="$PROJECT_DIR$/c4/lottery.c" />
       </list>
     </option>
@@ -180,7 +230,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -205,11 +255,6 @@
               <item name="trainc" type="b2602c69:ProjectViewProjectNode" />
               <item name="trainc" type="462c0819:PsiDirectoryNode" />
               <item name="c4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trainc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trainc" type="462c0819:PsiDirectoryNode" />
-              <item name="c4-2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,6 +322,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="time" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="time" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="time">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="typing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="typing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="typing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -290,6 +340,7 @@
       <item itemvalue="Application.color256" />
       <item itemvalue="Application.lottery" />
       <item itemvalue="Application.main" />
+      <item itemvalue="Application.time" />
       <item itemvalue="Application.typing" />
     </list>
   </component>
@@ -316,18 +367,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63791000" />
+    <option name="totallyTimeSpent" value="70586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68122977" visible="true" weight="0.16666667" />
-      <window_info id="Structure" order="1" sideWeight="0.31877023" side_tool="true" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.16666667" />
+      <window_info id="Structure" order="1" sideWeight="0.3188908" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33903742" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25882354" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24171123" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.42673796" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.16666667" />
+      <window_info id="Structure" order="1" sideWeight="0.3188908" side_tool="true" visible="true" weight="0.16666667" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3828877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24171123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +415,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -377,42 +450,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/p2.c">
+    <entry file="file://$PROJECT_DIR$/c4-3/p2.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/p4.c">
+    <entry file="file://$PROJECT_DIR$/c4-3/p4.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/palindrome.c">
+    <entry file="file://$PROJECT_DIR$/c4-3/palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/f4.c">
+    <entry file="file://$PROJECT_DIR$/c4-3/f4.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/f3.c">
+    <entry file="file://$PROJECT_DIR$/c4-3/f3.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/p3.c">
+    <entry file="file://$PROJECT_DIR$/c4-3/p3.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -468,6 +541,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -509,17 +585,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/f2.c">
+    <entry file="file://$PROJECT_DIR$/c4-3/f2.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/f1.c">
+    <entry file="file://$PROJECT_DIR$/c4-3/f1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4-3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="232">
+            <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/union-lottery.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/leap.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/union-lottery.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/time.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="29">
+            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -530,27 +656,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4-2/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="232">
-            <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c4/animals.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="215">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/lottery.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="174">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

@@ -2,11 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 
+// 非标准库
+// uni --> unix standard
+// 自己尝试： windows下如何睡。。。
+#include <unistd.h>
+
 
 char *getAnimal();
 
 
-void sleep() {
+void idlework() {
   clock_t start = clock();
   while (1) {
     clock_t now = clock();
@@ -25,7 +30,8 @@ int main(void) {
     printf("\b\b\b");
     printf("%s", animal);
     fflush(stdout);
-    sleep();
+//    idlework();
+    usleep(10000);
   }
 }
 
