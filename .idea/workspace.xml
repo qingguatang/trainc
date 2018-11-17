@@ -27,8 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/c4/main4.c" beforeDir="false" afterPath="$PROJECT_DIR$/c4/main4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4/res.md" beforeDir="false" afterPath="$PROJECT_DIR$/c4/res.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +53,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="140" />
+          <entry key="c" value="142" />
           <entry key="cpp" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="h" value="11" />
@@ -65,17 +65,17 @@
         <counts>
           <entry key="CMakeLists.txt" value="20" />
           <entry key="Markdown" value="33" />
-          <entry key="ObjectiveC" value="155" />
+          <entry key="ObjectiveC" value="157" />
           <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LLDB" value="4" />
-          <entry key="c" value="45730" />
+          <entry key="c" value="46800" />
           <entry key="cpp" value="37" />
           <entry key="h" value="32" />
-          <entry key="md" value="3845" />
+          <entry key="md" value="3871" />
           <entry key="txt" value="1655" />
         </counts>
       </usages-collector>
@@ -83,8 +83,8 @@
         <counts>
           <entry key="CMakeLists.txt" value="1647" />
           <entry key="LLDBCommands" value="4" />
-          <entry key="Markdown" value="3845" />
-          <entry key="ObjectiveC" value="45799" />
+          <entry key="Markdown" value="3871" />
+          <entry key="ObjectiveC" value="46869" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c4/main4.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="928">
+              <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -107,8 +107,8 @@
         <entry file="file://$PROJECT_DIR$/c4/res.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="638">
-                <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <first_editor relative-caret-position="425">
+                <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -186,11 +186,6 @@
             <path>
               <item name="trainc" type="b2602c69:ProjectViewProjectNode" />
               <item name="trainc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trainc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trainc" type="462c0819:PsiDirectoryNode" />
-              <item name="c4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85206000" />
+    <option name="totallyTimeSpent" value="87360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -314,7 +309,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3721925" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17005348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24171123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,9 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,26 +513,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4/union-lottery.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/leap.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/union-lottery.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/union-lottery.cpp" />
+    <entry file="file://$PROJECT_DIR$/c4/leap.c" />
+    <entry file="file://$PROJECT_DIR$/c4/union-lottery.c" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include/stdbool.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -548,16 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c4/palindrome.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="8" column="5" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/palindrome.c" />
     <entry file="file://$PROJECT_DIR$/c4-3/palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -600,16 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/lottery.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,8 +612,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/animals.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        <state relative-caret-position="229">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/lottery.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -667,8 +633,8 @@
     <entry file="file://$PROJECT_DIR$/c4/res.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="638">
-            <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <first_editor relative-caret-position="425">
+            <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
@@ -676,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/main4.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="928">
+          <caret line="74" column="2" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="2" />
         </state>
       </provider>
     </entry>
