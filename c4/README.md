@@ -6,6 +6,11 @@
 - [DNA双螺旋图](http://img.lanimg.com/tuku/yulantu/130915/328477-13091520411957.jpg)
 
 
+## 大转盘
+
+- [大转盘示例](https://codepen.io/timedepths/pen/rLOwKq)
+
+
 ## 电子表
 
 - [time文档](https://zh.cppreference.com/w/c/chrono/strftime)
