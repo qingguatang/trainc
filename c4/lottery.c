@@ -8,7 +8,7 @@
 #include <unistd.h>
 
 
-char *getAnimal();
+char *get_animal();
 
 
 void idlework() {
@@ -26,7 +26,7 @@ int main(void) {
   srand(time(NULL));
 
   for (int i = 0; i < 100; i++) {
-    char *animal = getAnimal();
+    char *animal = get_animal();
     printf("\b\b\b");
     printf("%s", animal);
     fflush(stdout);
@@ -36,7 +36,7 @@ int main(void) {
 }
 
 
-char *getAnimal() {
+char *get_animal() {
   int index = rand();
 //  printf("%d", index);
 
