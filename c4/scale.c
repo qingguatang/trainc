@@ -30,6 +30,7 @@ int main(void) {
   int list[100];  // 假设我们的数字不超过100位60进制
   int count = 0;
   int next = num;
+
   while (next > 0) {
     int remain = next % 60;
     list[count++] = remain;
@@ -37,9 +38,9 @@ int main(void) {
   }
 
   printf("%d 转化成巴比伦语：", num);
-  for (int i = 0; i < count; i++) {
+  for (int i = count - 1; i >= 0; i--) {
     char buf[100];
-    get60char(buf, list[count - i - 1]);
+    get60char(buf, list[i]);
     printf("%s ", buf);
   }
 }
