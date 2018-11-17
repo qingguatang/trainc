@@ -15,5 +15,6 @@ add_executable(time c4/time.c)
 add_executable(pointer c4/pointer.c)
 add_executable(palindrome2 c4/palindrome2.c)
 add_executable(palindrome3 c4/palindrome3.c)
+add_executable(scale c4/scale.c)
 
 
