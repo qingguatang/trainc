@@ -1,34 +1,35 @@
 # 函数和指针入门
 
 
-## 生肖和星座
+## 代码说明
 
-- [DNA双螺旋图](http://img.lanimg.com/tuku/yulantu/130915/328477-13091520411957.jpg)
+- 星座、生肖 [animals.c](animals.c)
+- 抽奖 [lottery.c](lottery.c)
+- 电子表 [time.c](time.c)
+- 指针入门 [pointer.c](pointer.c)
+- 60进制 [scale.c](scale.c)
 
 
-## 大转盘
+## 参考资料
+
+### 生肖和星座
+
+- [星座参考](https://astrodoor.cc/keyword/sign.jsp)
+- [甲子年](https://zh.wikipedia.org/wiki/%E7%94%B2%E5%AD%90)
+- [干支循环](https://zh.wikipedia.org/wiki/%E5%B9%B2%E6%94%AF)
+
+
+### 大转盘
 
 - [大转盘示例](https://codepen.io/timedepths/pen/rLOwKq)
 
 
-## 电子表
+### 电子表
 
 - [time文档](https://zh.cppreference.com/w/c/chrono/strftime)
 - [usleep](http://pubs.opengroup.org/onlinepubs/007904875/functions/usleep.html)
 
 
-## 指针
+### 进制转换
 
-
-## 回文
-
-- [回文wiki](https://zh.wikipedia.org/wiki/%E5%9B%9E%E6%96%87)
-- [字符串函数参考](https://zh.cppreference.com/w/c/string/byte)
-
-
-## 彩蛋
-
-
-- [60进制wiki](https://zh.wikipedia.org/wiki/%E5%85%AD%E5%8D%81%E9%80%B2%E5%88%B6)
-- [文明之光](https://book.douban.com/subject/25902942/)
-
+- [60进制](https://zh.wikipedia.org/wiki/%E5%85%AD%E5%8D%81%E9%80%B2%E5%88%B6)

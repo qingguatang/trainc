@@ -13,9 +13,10 @@ add_executable(animals c4/animals.c)
 add_executable(lottery c4/lottery.c)
 add_executable(time c4/time.c)
 add_executable(pointer c4/pointer.c)
-add_executable(palindrome2 c4/palindrome2.c)
-add_executable(palindrome3 c4/palindrome3.c)
+add_executable(palindrome2 c4-3/palindrome2.c)
+add_executable(palindrome3 c4-3/palindrome3.c)
 add_executable(scale c4/scale.c)
 add_executable(main4 c4/main4.c)
+
 
 
