@@ -5,61 +5,16 @@
 #include <string.h>
 #include <stdbool.h>
 
-
-void print(int *list, int n);
-
-
-bool contains(int *list, int n, value) {
-  for (int i = 0; i < n; i++) {
-    if (list[i] == value) {
-      return true;
-    }
-  }
-  return false;
-}
+#include "memlib.h"
 
 
-void init_nums(int *list, int n) {
-  int index = 0;
-  while (index < n) {
-    int value = rand() % 10;
-    if (!contains(list, index, value)) {
-      list[index] = value;
-      index++;
-    }
-  }
-//  print(list, n);
-}
-
-
-void print(int *list, int n) {
-  for (int i = 0; i < n; i++) {
-    printf("%d ", list[i]);
-  }
-}
-
-
-void init_spaces(int *list, int n) {
-  for (int i = 0; i < n; i++) {
-    *list = ' ';
-    list++;
-  }
-  *list = '\n';
-}
-
-
-void numbers_to_string(char *buf, int *list, int n) {
-  for (int i = 0; i < n; i++) {
-    buf[i] = (char)('0' + list[i]);
-  }
-  buf[n] = '\0';
-}
-
-
-int main(void) {
+int main(int argc, char *argv[]) {
   srand(time(NULL));
-
   int n = 6;
+  if (argc == 2) {
+    n = atoi(argv[1]);
+  }
+
   int list[n];
   init_nums(list, n);
   print(list, n);
@@ -71,16 +26,18 @@ int main(void) {
   usleep(1000 * 1000);  // 1s
 //  printf("\r%s", spaces);
   printf("\r%*s", n, "");
+  fflush(stdout);
 
   int str[n + 1];
   numbers_to_string(str, list, n);
 //  printf("%s", str);
 
   char input[100];
-  gets(input);
+  scanf("%s", input);
   if (strcmp(input, str) == 0) {
     printf("正确！");
   } else {
     printf("错啦~");
   }
 }
+
