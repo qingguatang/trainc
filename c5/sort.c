@@ -9,7 +9,6 @@ void init_nums(int *list, int n) {
   }
 }
 
-
 void swap(int *list, int i, int j) {
   int t = list[i];
   list[i] = list[j];
@@ -19,9 +18,9 @@ void swap(int *list, int i, int j) {
 void sort(int *list, int n) {
   for (int i = 0; i < n; i++) {
     int min = i;
-    for (int k = i + 1; k < n; k++) {
-      if (list[k] < list[min]) {
-        min = k;
+    for (int j = i + 1; j < n; j++) {
+      if (list[j] < list[min]) {
+        min = j;
       }
     }
     swap(list, i, min);
@@ -29,33 +28,16 @@ void sort(int *list, int n) {
 }
 
 
-int comp(int *a, int *b) {
-  return *a - *b;
-}
-
-
 int main(void) {
   srand(time(NULL));
 
-  int n = 100 * 10000;
+  int n = 5 * 10000;
   int list[n];
   init_nums(list, n);
 
-//  for (int i = 0; i < n; i++) {
-//    printf("%d ", list[i]);
-//  }
-
   int begin = clock();
-//  sort(list, n);
-
-//  printf("%p", comp);
-
-  qsort(list, n, sizeof(int), comp);
+  sort(list, n);
   int end = clock();
-  printf("\n");
+
   printf("cost %f s", 1.0 * (end - begin) / CLOCKS_PER_SEC);
-  printf("\n");
-//  for (int i = 0; i < n; i++) {
-//    printf("%d ", list[i]);
-//  }
 }

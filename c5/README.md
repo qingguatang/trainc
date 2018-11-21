@@ -11,7 +11,7 @@
 - [回文](https://zh.wikipedia.org/wiki/%E5%9B%9E%E6%96%87)
 
 
-### 数组
+### 数组和指针的关系
 
 - [回车和换行](https://www.ruanyifeng.com/blog/2006/04/post_213.html)
 
