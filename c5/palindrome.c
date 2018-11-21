@@ -33,8 +33,8 @@ bool is_palindrome(char *str) {
   return true;
 }
 
-int main(void) {
-  char *str = "Madam, I'm Adam.";
+int main(int argc, char *argv[]) {
+  char *str = argv[1]; //"Madam, I'm Adam.";
   if (is_palindrome(str)) {
     printf("%s 是回文", str);
   } else {
