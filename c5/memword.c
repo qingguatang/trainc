@@ -71,11 +71,13 @@ int main(int argc, char *argv[]) {
 
     if (is_correct(word, input)) {
       printf("正确！");
+      fflush(stdout);
+      usleep(1000 * 1000);
     } else {
-      printf("错误~");
+      printf("错误~ %s", word);
+      fflush(stdout);
+      usleep(2000 * 1000);
     }
-    fflush(stdout);
-    usleep(1000 * 1000);
     clear_line();
   } while (t);
 }
