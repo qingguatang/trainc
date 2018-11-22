@@ -57,15 +57,14 @@ void sort(int *list, int n, int (*comp)(int, int)) {
 int main(void) {
   srand(time(NULL));
 
-  int n = 100 * 10000;
-//  int n = 10;
+  int n = 1 * 10000;
   int list[n];
   init_nums(list, n);
 
   int begin = clock();
 
-//  sort(list, n, reverse_comp);
-  qsort(list, n, sizeof(int), reverse_comp);
+  sort(list, n, reverse_comp);
+//  qsort(list, n, sizeof(int), reverse_comp);
 
   int end = clock();
 

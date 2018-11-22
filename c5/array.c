@@ -1,37 +1,63 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 
-int sum_of_list(int *list, int len) {
-  int sum = 0;
-//  printf("function： %d\n", sizeof(list));
-//  int len = sizeof(list) / sizeof(list[0]);
-//  printf("%d", len);
-  for (int i = 0; i < len; i++) {
-    sum += list[i];
+int sum(int *nums, int size) {
+//  printf("size: %d\n", sizeof(nums));
+  int s = 0;
+  for (int i = 0; i < size; i++) {
+    s += nums[i];
   }
+  return s;
+}
 
-  return sum;
+void *get_nums(int *list, int n) {
+//  int list[n];
+  for (int i = 0; i < n; i++) {
+    list[i] = i;
+  }
+  return list;
 }
 
 
+void *init_rand_nums(int *list, int n) {
+  for (int i = 0; i < n; i++) {
+    list[i] = rand() % 10;
+  }
+}
+
+
+void nums_to_str(char *buf, int *list, int n) {
+  for (int i = 0; i < n; i++) {
+    buf[i] = (char)('0' + list[i]);
+  }
+}
+
 int main(void) {
-  int list[] = {1, 2, 3, 4, 5};
+//  int nums[] = {1, 2, 3, 4, 5};
+//  int size = sizeof(nums) / sizeof(nums[0]);
+//  int s = sum(nums, size);
+//  printf("sum %d", s);
 
-//  printf("list：%p\n", list);
-//  printf("%p\n", &list[0]);
+  int n = 6;
 
-  int *item = list;
+  int list[n];
+  init_rand_nums(list, n);
 
-  printf("item：%d\n", *item);
-  printf("item：%d\n", *(item + 1));
-  printf("item：%d\n", *(item + 2));
+  for (int j = 0; j < n; j++) {
+    printf("%d ", list[j]);
+    fflush(stdout);
+  }
+  for (int i = 0; i < 3; i++) {
+    printf(".");
+    fflush(stdout);
+    usleep(1000 * 1000);
+  }
 
-  printf("item：%d\n", item[0]);
-  printf("item：%d\n", item[1]);
-  printf("item：%d\n", item[2]);
+  printf("\r                     ");
 
-
-  int len = sizeof(list) / sizeof(list[0]);
-  int sum = sum_of_list(list, len);
-  printf("sum： %d\n", sum);
+  char buf[n];
+  nums_to_str(buf, list, n);
+  printf("%s", buf);
 }
