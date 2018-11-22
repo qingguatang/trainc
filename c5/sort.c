@@ -20,12 +20,12 @@ int int_comp(int a, int b) {
   return a - b;
 }
 
-int remain_comp(int a, int b) {
-  return a % 10 - b % 10;
-}
-
 int reverse_comp(int a, int b) {
   return b - a;
+}
+
+int remain_comp(int a, int b) {
+  return a % 10 - b % 10;
 }
 
 
