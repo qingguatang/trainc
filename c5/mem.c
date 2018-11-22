@@ -9,8 +9,8 @@
 void print(int *list, int n);
 bool contains(int *list, int n, int value);
 void init_nums(int *list, int n);
-void init_spaces(int *list, int n);
-void numbers_to_string(char *buf, int *list, int n);
+void nums_to_str(char *buf, int *list, int n);
+void clear();
 
 
 int main(int argc, char *argv[]) {
@@ -21,28 +21,33 @@ int main(int argc, char *argv[]) {
   }
 
   int list[n];
-  init_nums(list, n);
-  print(list, n);
+  int t = 1;
+  while (t) {
+    // 初始化n个数字
+    init_nums(list, n);
+    // 打印出来，有简单的倒计时进度条哦
+    print(list, n);
+    // 消失
+    clear();
 
-  int spaces[n + 1];
-  init_spaces(spaces, n);
+    // 从控制台读入字符串
+    char input[100];
+    scanf("%s", input);
 
-  fflush(stdout);
-  usleep(1000 * 1000);  // 1s
-//  printf("\r%s", spaces);
-  printf("\r%*s", n, "");
-  fflush(stdout);
+    // 将数据转换成字符串
+    int str[n + 1];
+    nums_to_str(str, list, n);
 
-  int str[n + 1];
-  numbers_to_string(str, list, n);
-//  printf("%s", str);
+    // 直接比较字符串
+    if (strcmp(input, str) == 0) {
+      printf("正确！");
+    } else {
+      printf("错啦~");
+    }
 
-  char input[100];
-  scanf("%s", input);
-  if (strcmp(input, str) == 0) {
-    printf("正确！");
-  } else {
-    printf("错啦~");
+    fflush(stdout);
+    usleep(1000 * 1000);
+    clear();
   }
 }
 
@@ -66,7 +71,6 @@ void init_nums(int *list, int n) {
       index++;
     }
   }
-//  print(list, n);
 }
 
 
@@ -74,21 +78,25 @@ void print(int *list, int n) {
   for (int i = 0; i < n; i++) {
     printf("%d ", list[i]);
   }
-}
-
-
-void init_spaces(int *list, int n) {
-  for (int i = 0; i < n; i++) {
-    *list = ' ';
-    list++;
+  fflush(stdout);
+  for (int i = 0; i < 3; i++) {
+    printf(".");
+    fflush(stdout);
+    usleep(1000 * 1000);
   }
-  *list = '\n';
 }
 
 
-void numbers_to_string(char *buf, int *list, int n) {
+void clear() {
+  printf("\r%*s\r", 20, "");
+  fflush(stdout);
+}
+
+
+void nums_to_str(char *buf, int *nums, int n) {
   for (int i = 0; i < n; i++) {
-    buf[i] = (char)('0' + list[i]);
+    buf[i] = (char)('0' + nums[i]);
   }
   buf[n] = '\0';
 }
+
