@@ -3,28 +3,36 @@
 ## 代码说明
 
 
+### 1. 字符串
+
+- 字符串基础 [str.c](str.c)
+- 回文 [palindrome.c](palindrome.c)
+
+### 2. 数组
+
+- 数组基础 [array.c](array.c)
+- 记忆数字 [mem.c](mem.c)
+- 记忆单词 [memword.c](memword.c)
+
+### 3. 函数指针
+
+- 排序 [sort.c](sort.c)
+- 单词统计 [calccet.c](calccet.c)
+
+
 
 ## 参考资料
 
-### 重新认识字符串
+### 1. 重新认识字符串
 
 - [回文](https://zh.wikipedia.org/wiki/%E5%9B%9E%E6%96%87)
 
-
-### 数组和指针的关系
+### 2. 数组和指针的关系
 
 - [回车和换行](https://www.ruanyifeng.com/blog/2006/04/post_213.html)
 
-### 函数指针
+### 3. 函数指针
 
 - [选择排序](https://codepen.io/msurguy/pen/fBDJA)
 
-### 彩蛋
-
-- [wiki](https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85C%E8%AF%AD%E8%A8%80%E6%B7%B7%E4%B9%B1%E4%BB%A3%E7%A0%81%E5%A4%A7%E8%B5%9B)
-- [code](http://ioccc.org/years.html)
-
-- [hou](http://www.houqiming.net/)
-- [浙大](http://www.cs.zju.edu.cn/chinese/redir.php?cust=people&id=116402)
-- [计算器](http://ioccc.org/2011/hou/hint.html)
 

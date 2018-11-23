@@ -23,18 +23,20 @@ bool is_palindrome(char *str) {
     a = (char)tolower(a);
     b = (char)tolower(b);
 
-//    printf("%c, %c\n", a, b);
     if (a != b) {
       return false;
     }
+
     front++;
     end--;
   }
+
   return true;
 }
 
+
 int main(int argc, char *argv[]) {
-  char *str = argv[1]; //"Madam, I'm Adam.";
+  char *str = argv[1];
   if (is_palindrome(str)) {
     printf("%s 是回文", str);
   } else {

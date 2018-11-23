@@ -51,7 +51,10 @@ int main(int argc, char *argv[]) {
   }
 }
 
-
+/**
+ * 判断value值是否存在于数组中
+ * 用来产生不重复的随机数
+ */
 bool contains(int *list, int n, value) {
   for (int i = 0; i < n; i++) {
     if (list[i] == value) {
@@ -62,6 +65,9 @@ bool contains(int *list, int n, value) {
 }
 
 
+/**
+ * 初始化n个不同的随机数字
+ */
 void init_nums(int *list, int n) {
   int index = 0;
   while (index < n) {
@@ -74,6 +80,10 @@ void init_nums(int *list, int n) {
 }
 
 
+/**
+ * 打印list数组中的内容
+ * 随便输出...作为进度条
+ */
 void print(int *list, int n) {
   for (int i = 0; i < n; i++) {
     printf("%d ", list[i]);
@@ -87,12 +97,21 @@ void print(int *list, int n) {
 }
 
 
+/**
+ * 清除页面内容
+ */
 void clear() {
+  // 这里有个小技术，*表示输出的位数
+  // 平常使用 "%5d"，表示5格宽度，使用*就可以传递变量给宽度了
   printf("\r%*s\r", 20, "");
   fflush(stdout);
 }
 
 
+/**
+ * int数组转换成字符串
+ * 方便和录入的字符串比较
+ */
 void nums_to_str(char *buf, int *nums, int n) {
   for (int i = 0; i < n; i++) {
     buf[i] = (char)('0' + nums[i]);
