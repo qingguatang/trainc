@@ -10,3 +10,6 @@
 ## 数组
 
 - 冒泡排序 [bubblesort.c](bubblesort.c)
+- 求最大最小值 [minmax.c](minmax.c)
+- 二分查找 [bsearch.c](bsearch.c)
+- 逆序数组元素 [revert.c](revert.c)
