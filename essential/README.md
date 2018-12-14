@@ -1,4 +1,7 @@
-# C语言考试必会程序
+# 必会基础程序
+
+以下程序需熟练掌握，是代码阅读题以及编程题的基础。
+
 
 ## 数
 
@@ -13,3 +16,10 @@
 - 求最大最小值 [minmax.c](minmax.c)
 - 二分查找 [bsearch.c](bsearch.c)
 - 逆序数组元素 [revert.c](revert.c)
+
+
+## 字符串
+
+- 统计字符 [strcalc.c](strcalc.c)
+- 字符串长度 [strlen.c](strlen.c)
+- 字符串排序 [strsort.c](strsort.c)
