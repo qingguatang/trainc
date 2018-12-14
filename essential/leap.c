@@ -13,7 +13,7 @@ int main(void) {
   int year;
 
   int years[] = {2016, 2020, 2100, 2400};
-  int size = sizeof(years) / sizeof(int);
+  int size = sizeof(years) / sizeof(years[0]);
 
   for (int i = 0; i < size; i++) {
     if (is_leapyear(years[i])) {
