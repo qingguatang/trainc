@@ -9,6 +9,14 @@ void swap(char **strs, int a, int b) {
 }
 
 
+
+void swap2(char **a, char **b) {
+  char *t = *a;
+  *a = *b;
+  *b = t;
+}
+
+
 void sort(char **strs, int n) {
   for (int i = 0; i < n; i++) {
     int min = i;
@@ -17,7 +25,8 @@ void sort(char **strs, int n) {
         min = j;
       }
     }
-    swap(strs, i, min);
+//    swap(strs, i, min);
+    swap2(&strs[i], &strs[min]);
   }
 }
 
