@@ -21,5 +21,8 @@
 ## 字符串
 
 - 统计字符 [strcalc.c](strcalc.c)
-- 字符串长度 [strlen.c](strlen.c)
-- 字符串排序 [strsort.c](strsort.c)
+- 求长度 [strlen.c](strlen.c)
+- 排序 [strsort.c](strsort.c)
+- 判断回文 [palinodrome.c](palindrome.c)
+- 逆序 [strrevert](strrevert.c)
+- 大小写转换 [case](case.c)
