@@ -4,3 +4,4 @@
 
 - 素数判断 [prime.c](prime.c)
 - 闰年 [leap.c](leap.c)
+- 进制转换 [binhex](binhex.c)
