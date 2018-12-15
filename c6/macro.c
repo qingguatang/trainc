@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-#define PI 3
 
-#define cicle(r) (2 * PI * r)
+#define f(x) ((x) * (x))   // 4+4 * 4+4
 
 
 int main(void) {
-  printf("%d", cicle(3 + 5));
+  printf("%d\n", f(8));
+  printf("%d\n", f(4+4));
 }
