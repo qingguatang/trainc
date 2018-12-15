@@ -3,7 +3,7 @@
 
 
 /**
- * 将一个字符串逆序反转过来
+ * 将一个字符串逆序
  */
 void reverse(char *str) {
   char *start = str;
