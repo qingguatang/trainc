@@ -48,8 +48,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="k">
-      <change beforePath="$PROJECT_DIR$/c6/op0.c" beforeDir="false" afterPath="$PROJECT_DIR$/c6/op0.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c6/op1.c" beforeDir="false" afterPath="$PROJECT_DIR$/c6/op1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c6/op2.c" beforeDir="false" afterPath="$PROJECT_DIR$/c6/op2.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +75,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="339" />
+          <entry key="c" value="340" />
           <entry key="cpp" value="4" />
           <entry key="gitignore" value="2" />
           <entry key="h" value="12" />
@@ -88,14 +87,14 @@
         <counts>
           <entry key="CMakeLists.txt" value="42" />
           <entry key="Markdown" value="56" />
-          <entry key="ObjectiveC" value="355" />
+          <entry key="ObjectiveC" value="356" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LLDB" value="4" />
-          <entry key="c" value="98480" />
+          <entry key="c" value="98589" />
           <entry key="cpp" value="37" />
           <entry key="h" value="33" />
           <entry key="md" value="7171" />
@@ -108,7 +107,7 @@
           <entry key="Doxygen file" value="2" />
           <entry key="LLDBCommands" value="4" />
           <entry key="Markdown" value="7171" />
-          <entry key="ObjectiveC" value="98548" />
+          <entry key="ObjectiveC" value="98657" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -169,8 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c6/numtypes.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="341">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -178,20 +177,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c6/op0.c">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/c6/op2.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="203">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/c6/op1.c">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c6/op0.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c6/op1.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -232,7 +240,6 @@
         <option value="$PROJECT_DIR$/essential/strsort.c" />
         <option value="$PROJECT_DIR$/c6/types.c" />
         <option value="$PROJECT_DIR$/c6/op.c" />
-        <option value="$PROJECT_DIR$/c6/op2.c" />
         <option value="$PROJECT_DIR$/c6/array1.c" />
         <option value="$PROJECT_DIR$/c6/array2.c" />
         <option value="$PROJECT_DIR$/c6/array3.c" />
@@ -252,9 +259,10 @@
         <option value="$PROJECT_DIR$/essential/strlen.c" />
         <option value="$PROJECT_DIR$/essential/strcalc.c" />
         <option value="$PROJECT_DIR$/c6/macro.c" />
-        <option value="$PROJECT_DIR$/c6/numtypes.c" />
         <option value="$PROJECT_DIR$/c6/op0.c" />
+        <option value="$PROJECT_DIR$/c6/numtypes.c" />
         <option value="$PROJECT_DIR$/c6/op1.c" />
+        <option value="$PROJECT_DIR$/c6/op2.c" />
       </list>
     </option>
   </component>
@@ -328,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.op1">
+  <component name="RunManager" selected="Application.op2">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -550,7 +558,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174533000" />
+    <option name="totallyTimeSpent" value="174825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -750,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c6/op2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c6/expr.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -936,27 +937,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/c6/op0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/c6/numtypes.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="341">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c6/op0.c">
+    <entry file="file://$PROJECT_DIR$/c6/op1.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="290">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c6/op1.c">
+    <entry file="file://$PROJECT_DIR$/c6/op2.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="203">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
