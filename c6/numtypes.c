@@ -4,8 +4,8 @@
 
 int main(void) {
   char a;
-  int b;
-  short c;
+  short b;
+  int c;
   long d;
 
   float e;

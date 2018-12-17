@@ -2,38 +2,42 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="trainc" targetName="macro" />
+      <config projectName="trainc" targetName="numtypes" />
       <config projectName="trainc" targetName="bubblesort" />
       <config projectName="trainc" targetName="prime" />
       <config projectName="trainc" targetName="minmax" />
+      <config projectName="trainc" targetName="fp1" />
       <config projectName="trainc" targetName="bsearch" />
-      <config projectName="trainc" targetName="types5" />
+      <config projectName="trainc" targetName="op1" />
+      <config projectName="trainc" targetName="op0" />
       <config projectName="trainc" targetName="palindrome2" />
-      <config projectName="trainc" targetName="mem5" />
+      <config projectName="trainc" targetName="op2" />
+      <config projectName="trainc" targetName="array1" />
+      <config projectName="trainc" targetName="array3" />
       <config projectName="trainc" targetName="revert" />
+      <config projectName="trainc" targetName="array2" />
       <config projectName="trainc" targetName="binhex" />
-      <config projectName="trainc" targetName="memword5" />
       <config projectName="trainc" targetName="array5" />
       <config projectName="trainc" targetName="p2" />
+      <config projectName="trainc" targetName="array4" />
       <config projectName="trainc" targetName="daffodils" />
       <config projectName="trainc" targetName="strrevert" />
       <config projectName="trainc" targetName="case" />
-      <config projectName="trainc" targetName="p4" />
       <config projectName="trainc" targetName="strsort" />
+      <config projectName="trainc" targetName="p4" />
       <config projectName="trainc" targetName="p3" />
-      <config projectName="trainc" targetName="palindrome5" />
-      <config projectName="trainc" targetName="f4" />
-      <config projectName="trainc" targetName="sort5" />
-      <config projectName="trainc" targetName="str5" />
-      <config projectName="trainc" targetName="main5" />
       <config projectName="trainc" targetName="strlen" />
+      <config projectName="trainc" targetName="f4" />
       <config projectName="trainc" targetName="f3" />
-      <config projectName="trainc" targetName="calccet" />
-      <config projectName="trainc" targetName="palindrome" />
       <config projectName="trainc" targetName="f2" />
+      <config projectName="trainc" targetName="palindrome" />
       <config projectName="trainc" targetName="f1" />
-      <config projectName="trainc" targetName="main6" />
       <config projectName="trainc" targetName="leap" />
       <config projectName="trainc" targetName="strcalc" />
+      <config projectName="trainc" targetName="str1" />
+      <config projectName="trainc" targetName="declare" />
+      <config projectName="trainc" targetName="str2" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -42,8 +46,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/essential/strsort.c" beforeDir="false" afterPath="$PROJECT_DIR$/essential/strsort.c" afterDir="false" />
+    <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="k">
+      <change afterPath="$PROJECT_DIR$/c6/array1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/array2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/array3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/array4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/array5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/declare.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/fp1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/op0.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/str1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6/str2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/c6/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c6/numtypes.c" beforeDir="false" afterPath="$PROJECT_DIR$/c6/numtypes.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,53 +75,53 @@
     <session id="728636475">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.5" value="7" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="247" />
+          <entry key="c" value="330" />
           <entry key="cpp" value="4" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="h" value="11" />
-          <entry key="md" value="43" />
-          <entry key="txt" value="46" />
+          <entry key="md" value="55" />
+          <entry key="txt" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="31" />
-          <entry key="Markdown" value="43" />
-          <entry key="ObjectiveC" value="262" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="CMakeLists.txt" value="42" />
+          <entry key="Markdown" value="55" />
+          <entry key="ObjectiveC" value="345" />
+          <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LLDB" value="4" />
-          <entry key="c" value="86795" />
+          <entry key="c" value="97277" />
           <entry key="cpp" value="37" />
           <entry key="h" value="32" />
-          <entry key="md" value="6244" />
-          <entry key="txt" value="3063" />
+          <entry key="md" value="7143" />
+          <entry key="txt" value="3856" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="3055" />
+          <entry key="CMakeLists.txt" value="3847" />
           <entry key="Doxygen file" value="2" />
           <entry key="LLDBCommands" value="4" />
-          <entry key="Markdown" value="6244" />
-          <entry key="ObjectiveC" value="86862" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Markdown" value="7143" />
+          <entry key="ObjectiveC" value="97344" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -113,82 +131,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/leap.c">
+        <entry file="file://$PROJECT_DIR$/c6/str2.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/minmax.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/palindrome.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/prime.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/revert.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/strcalc.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/strlen.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/strrevert.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="261">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -197,22 +143,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/essential/strsort.c">
+        <entry file="file://$PROJECT_DIR$/c6/declare.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/essential/daffodils.c">
+        <entry file="file://$PROJECT_DIR$/c6/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="377">
+                <caret line="13" selection-start-line="13" selection-end-line="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c6/str1.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,24 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/c4/cycle.cpp" />
-        <option value="$PROJECT_DIR$/c4/str.c" />
-        <option value="$PROJECT_DIR$/c4/p3.c" />
-        <option value="$PROJECT_DIR$/c4/p4.c" />
-        <option value="$PROJECT_DIR$/c3/color256.c" />
-        <option value="$PROJECT_DIR$/c3/color.c" />
-        <option value="$PROJECT_DIR$/c3/typing.c" />
-        <option value="$PROJECT_DIR$/c3/main.c" />
-        <option value="$PROJECT_DIR$/c3/README.md" />
-        <option value="$PROJECT_DIR$/c4-2/README.md" />
-        <option value="$PROJECT_DIR$/c4/union-lottery.c" />
-        <option value="$PROJECT_DIR$/c4/time.c" />
-        <option value="$PROJECT_DIR$/c4/animals.c" />
-        <option value="$PROJECT_DIR$/c4/pointer.c" />
-        <option value="$PROJECT_DIR$/c4/lottery.c" />
-        <option value="$PROJECT_DIR$/c4/palindrome.c" />
-        <option value="$PROJECT_DIR$/c4/palindrome2.c" />
-        <option value="$PROJECT_DIR$/c4/palindrome3.c" />
         <option value="$PROJECT_DIR$/c4/scale.c" />
         <option value="$PROJECT_DIR$/c4/res.md" />
         <option value="$PROJECT_DIR$/c4/main4.c" />
@@ -259,7 +208,6 @@
         <option value="$PROJECT_DIR$/c5/calccet.c" />
         <option value="$PROJECT_DIR$/c6/pi.c" />
         <option value="$PROJECT_DIR$/other/pk.c" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/essential/prime.c" />
         <option value="$PROJECT_DIR$/essential/binhex.c" />
         <option value="$PROJECT_DIR$/essential/daffodils.c" />
@@ -271,11 +219,30 @@
         <option value="$PROJECT_DIR$/essential/strlen.c" />
         <option value="$PROJECT_DIR$/essential/palindrome.c" />
         <option value="$PROJECT_DIR$/essential/strrevert.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/essential/case.c" />
-        <option value="$PROJECT_DIR$/essential/README.md" />
         <option value="$PROJECT_DIR$/essential/leap.c" />
         <option value="$PROJECT_DIR$/essential/strsort.c" />
+        <option value="$PROJECT_DIR$/c6/macro.c" />
+        <option value="$PROJECT_DIR$/c6/types.c" />
+        <option value="$PROJECT_DIR$/c6/op.c" />
+        <option value="$PROJECT_DIR$/c6/op2.c" />
+        <option value="$PROJECT_DIR$/c6/numtypes.c" />
+        <option value="$PROJECT_DIR$/c6/array1.c" />
+        <option value="$PROJECT_DIR$/c6/array2.c" />
+        <option value="$PROJECT_DIR$/c6/array3.c" />
+        <option value="$PROJECT_DIR$/c6/array4.c" />
+        <option value="$PROJECT_DIR$/c6/array6.c" />
+        <option value="$PROJECT_DIR$/c6/array5.c" />
+        <option value="$PROJECT_DIR$/c6/str2.c" />
+        <option value="$PROJECT_DIR$/c6/str1.c" />
+        <option value="$PROJECT_DIR$/c6/fp1.c" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/c6/expr.md" />
+        <option value="$PROJECT_DIR$/c6/README.md" />
+        <option value="$PROJECT_DIR$/essential/README.md" />
+        <option value="$PROJECT_DIR$/c6/op0.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/c6/declare.c" />
       </list>
     </option>
   </component>
@@ -309,12 +276,7 @@
             <path>
               <item name="trainc" type="b2602c69:ProjectViewProjectNode" />
               <item name="trainc" type="462c0819:PsiDirectoryNode" />
-              <item name="c5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trainc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trainc" type="462c0819:PsiDirectoryNode" />
-              <item name="essential" type="462c0819:PsiDirectoryNode" />
+              <item name="c6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,6 +286,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="w&#9;FILE&#9;file:///Users/bencode/work/github/trainc/c5/memword.c" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -348,8 +311,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.strsort">
+  <component name="RunManager" selected="Application.op0">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="array1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="array1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="array2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="array2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="array3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="array3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="array4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="array4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -374,11 +357,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calccet" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="calccet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="calccet">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="case" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="case" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="case">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -389,27 +367,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="declare" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="declare" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="declare">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fp1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="fp1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="fp1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="leap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="leap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="main5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="main5">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="main6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="main6">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mem5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="mem5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="mem5">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="memword5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="memword5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="memword5">
+    <configuration name="macro" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="macro" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="macro">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -419,12 +392,27 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrome2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="palindrome2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="palindrome2">
+    <configuration name="numtypes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="numtypes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="numtypes">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrome5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="palindrome5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="palindrome5">
+    <configuration name="op0" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="op0" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="op0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="op1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="op1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="op1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="op2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="op2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="op2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="palindrome2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="palindrome2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="palindrome2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -439,12 +427,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sort5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="sort5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="sort5">
+    <configuration name="str1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="str1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="str1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="str5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="str5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="str5">
+    <configuration name="str2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="str2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="str2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -469,37 +457,36 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="types5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="types5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="types5">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.array1" />
+      <item itemvalue="Application.array2" />
+      <item itemvalue="Application.array3" />
+      <item itemvalue="Application.array4" />
       <item itemvalue="Application.array5" />
       <item itemvalue="Application.binhex" />
       <item itemvalue="Application.bsearch" />
       <item itemvalue="Application.bubblesort" />
-      <item itemvalue="Application.calccet" />
       <item itemvalue="Application.case" />
       <item itemvalue="Application.daffodils" />
+      <item itemvalue="Application.declare" />
+      <item itemvalue="Application.fp1" />
       <item itemvalue="Application.leap" />
-      <item itemvalue="Application.main5" />
-      <item itemvalue="Application.main6" />
-      <item itemvalue="Application.mem5" />
-      <item itemvalue="Application.memword5" />
+      <item itemvalue="Application.macro" />
       <item itemvalue="Application.minmax" />
+      <item itemvalue="Application.numtypes" />
+      <item itemvalue="Application.op0" />
+      <item itemvalue="Application.op1" />
+      <item itemvalue="Application.op2" />
       <item itemvalue="Application.palindrome2" />
-      <item itemvalue="Application.palindrome5" />
       <item itemvalue="Application.prime" />
       <item itemvalue="Application.revert" />
-      <item itemvalue="Application.sort5" />
-      <item itemvalue="Application.str5" />
+      <item itemvalue="Application.str1" />
+      <item itemvalue="Application.str2" />
       <item itemvalue="Application.strcalc" />
       <item itemvalue="Application.strlen" />
       <item itemvalue="Application.strrevert" />
       <item itemvalue="Application.strsort" />
-      <item itemvalue="Application.types5" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -533,55 +520,57 @@
       <workItem from="1544604205410" duration="41000" />
       <workItem from="1544666646775" duration="1969000" />
       <workItem from="1544677792505" duration="3412000" />
-      <workItem from="1544763923163" duration="11266000" />
+      <workItem from="1544763923163" duration="11864000" />
+      <workItem from="1544858282770" duration="22967000" />
+      <workItem from="1545016100379" duration="659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147205000" />
+    <option name="totallyTimeSpent" value="171429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.18192919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.18559219" />
       <window_info id="Structure" order="1" sideWeight="0.3188908" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39786097" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21176471" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24171123" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3090909" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42139038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.34759358" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.48449197" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3775401" />
+      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.2748663" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.15445666" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.18376069" />
       <window_info id="Structure" order="1" sideWeight="0.3188908" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44385028" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24171123" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39786097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3647059" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42139038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.36791444" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.48449197" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32941177" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3775401" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -595,95 +584,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/c4-3/README.md" />
-    <entry file="file://$PROJECT_DIR$/c3/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="696">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/res.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="548">
-            <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/time.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/scale.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/pointer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/butterfly.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/lottery.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/animals.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/main4.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/README.md" />
-    <entry file="file://$PROJECT_DIR$/draft/f3.c" />
-    <entry file="file://$PROJECT_DIR$/draft/f2.c" />
-    <entry file="file://$PROJECT_DIR$/draft/f1.c" />
-    <entry file="file://$PROJECT_DIR$/draft/p4.c" />
-    <entry file="file://$PROJECT_DIR$/c5/main5.c" />
-    <entry file="file://$PROJECT_DIR$/draft/palindrome2.c" />
-    <entry file="file://$PROJECT_DIR$/draft/palindrome.c" />
-    <entry file="file://$PROJECT_DIR$/draft/palindrome3.c" />
     <entry file="file://$PROJECT_DIR$/c5/cet6.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -705,16 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c5/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="261">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c5/calccet.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -729,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c5/mem.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c5/str.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
@@ -743,86 +626,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c5/types.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/pk.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2586">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c6/pi.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c5/sort.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/other/pk.c" />
+    <entry file="file://$PROJECT_DIR$/c6/pi.c" />
     <entry file="file://$PROJECT_DIR$/c5/palindrome.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c5/memword.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essential/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="58">
-            <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essential/binhex.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essential/bsearch.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -837,22 +646,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1450">
           <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/essential/daffodils.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essential/leap.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="348">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
@@ -864,19 +663,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essential/palindrome.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/essential/prime.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
+        <state relative-caret-position="160">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -886,20 +675,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essential/revert.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
+        <state relative-caret-position="827">
           <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/essential/strcalc.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
+        <state relative-caret-position="827">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essential/bsearch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essential/palindrome.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essential/strrevert.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/essential/strlen.c">
       <provider selected="true" editor-type-id="text-editor">
@@ -908,23 +727,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essential/strrevert.c">
+    <entry file="file://$PROJECT_DIR$/essential/strsort.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="696">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/essential/strsort.c">
+    <entry file="file://$PROJECT_DIR$/c6/macroout.c" />
+    <entry file="file://$PROJECT_DIR$/c5/memword.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/array6.c" />
+    <entry file="file://$PROJECT_DIR$/c5/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="79">
+            <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essential/daffodils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c5/sort.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c5/mem.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="99" column="2" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c5/types.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/numtypes.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/op2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/expr.md" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="116">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essential/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essential/binhex.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/array4.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/op0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/op1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/array1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/array2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/array3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/array5.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/fp1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/macro.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/str2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/str1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="377">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c6/declare.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
