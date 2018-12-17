@@ -3,7 +3,7 @@
 
 int my_strlen(char *str) {
   int len = 0;
-  while (str[len]) {
+  while (str[len] != '\0') {
     len++;
   }
   return len;
@@ -11,8 +11,10 @@ int my_strlen(char *str) {
 
 int my_strlen2(char *str) {
   char *p = str;
-  while (*p++);
-  return p - str - 1;
+  while (*p) {
+    p++;
+  }
+  return p - str;
 }
 
 int main(void) {

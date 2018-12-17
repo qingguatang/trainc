@@ -22,7 +22,7 @@ int calc_space(char *str) {
  */
 int calc_alpha(char *str) {
   int count = 0;
-  while (*str++) {
+  for (; *str; str++) {
     if (*str > 'a' && *str < 'z') {
       count++;
     }

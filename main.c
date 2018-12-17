@@ -2,5 +2,9 @@
 
 
 int main() {
-  int i = 510000;
+  int k = 231;
+
+  printf("%d\n", k / 100);
+  printf("%d\n", k % 100 / 10);
+  printf("%d", k % 10);
 }

@@ -28,6 +28,7 @@ set(CMAKE_C_STANDARD 11)
 #add_executable(calccet c5/calccet.c)
 #add_executable(types5 c5/types.c)
 #add_executable(main6 main.c)
+add_executable(main6 main.c)
 
 add_executable(macro c6/macro.c)
 add_executable(numtypes c6/numtypes.c)
