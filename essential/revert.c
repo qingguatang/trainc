@@ -34,7 +34,7 @@ void revert_ptr2(int *array, int len) {
   int start = 0;
   int end = len - 1;
   while (start < end) {
-    int t = *(array + start); // *(array + i) 和 array[i] 是一样的
+    int t = *(array + start);
     array[start] = *(array + end);
     array[end] = t;
 
