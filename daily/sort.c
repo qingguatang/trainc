@@ -32,7 +32,7 @@ int main(void) {
     { "A", 20 },
     { "B", 10 },
     { "C", 12 },
-    { "C", 50 }
+    { "D", 50 }
   };
 
   int len = sizeof(list) / sizeof(*list);
