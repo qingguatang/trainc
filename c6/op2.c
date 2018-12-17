@@ -20,5 +20,9 @@ int main(void) {
 //  z*=y<<=x+=1;
 //  printf("%d\n", y);
 //  printf("%d\n", z);
+
+
+//  int a = 1, b = 2, c = 3, d = 4;
+//  a < b ? a : c < d ? c : d;
 }
 
