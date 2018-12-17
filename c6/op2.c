@@ -11,5 +11,14 @@ int main(void) {
 //  if (m=1) {
 //    printf("ok");
 //  }
+
+//  int x = 1, y, z;
+//  z = y = x + 1;
+//
+//  printf("%d\n", z);
+//
+//  z*=y<<=x+=1;
+//  printf("%d\n", y);
+//  printf("%d\n", z);
 }
 

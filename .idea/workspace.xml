@@ -49,6 +49,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="k">
       <change beforePath="$PROJECT_DIR$/c6/op2.c" beforeDir="false" afterPath="$PROJECT_DIR$/c6/op2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/essential/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/essential/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,7 +95,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LLDB" value="4" />
-          <entry key="c" value="98589" />
+          <entry key="c" value="98843" />
           <entry key="cpp" value="37" />
           <entry key="h" value="33" />
           <entry key="md" value="7171" />
@@ -107,7 +108,7 @@
           <entry key="Doxygen file" value="2" />
           <entry key="LLDBCommands" value="4" />
           <entry key="Markdown" value="7171" />
-          <entry key="ObjectiveC" value="98657" />
+          <entry key="ObjectiveC" value="98911" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -180,8 +181,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c6/op2.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="307">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -558,18 +559,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174825000" />
+    <option name="totallyTimeSpent" value="175360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.18559219" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6811092" visible="true" weight="0.18559219" />
       <window_info id="Structure" order="1" sideWeight="0.3188908" side_tool="true" weight="0.16666667" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39786097" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3647059" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3647059" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42139038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -937,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c6/op0.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c6/numtypes.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -961,10 +955,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/c6/op0.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/c6/op2.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="307">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
