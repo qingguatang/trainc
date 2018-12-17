@@ -18,4 +18,7 @@ int main(void) {
 
   printf("float: %d\n", sizeof(e));
   printf("double: %d\n", sizeof(f));
+
+
+//  printf("%d\n", 0x1001);
 }
