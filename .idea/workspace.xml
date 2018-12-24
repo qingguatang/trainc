@@ -18,6 +18,7 @@
       <config projectName="trainc" targetName="array3" />
       <config projectName="trainc" targetName="revert" />
       <config projectName="trainc" targetName="array2" />
+      <config projectName="trainc" targetName="calc_e" />
       <config projectName="trainc" targetName="pi" />
       <config projectName="trainc" targetName="binhex" />
       <config projectName="trainc" targetName="array5" />
@@ -50,9 +51,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22337888-7a8c-437b-98d9-a08423cd2d22" name="Default Changelist" comment="k">
-      <change afterPath="$PROJECT_DIR$/essential/fibs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/essential/pi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/essential/calc_e.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -80,7 +79,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="352" />
+          <entry key="c" value="353" />
           <entry key="cpp" value="4" />
           <entry key="gitignore" value="2" />
           <entry key="h" value="12" />
@@ -92,27 +91,27 @@
         <counts>
           <entry key="CMakeLists.txt" value="43" />
           <entry key="Markdown" value="58" />
-          <entry key="ObjectiveC" value="368" />
+          <entry key="ObjectiveC" value="369" />
           <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LLDB" value="4" />
-          <entry key="c" value="102288" />
+          <entry key="c" value="103595" />
           <entry key="cpp" value="37" />
           <entry key="h" value="33" />
           <entry key="md" value="7171" />
-          <entry key="txt" value="4014" />
+          <entry key="txt" value="4068" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="4005" />
+          <entry key="CMakeLists.txt" value="4059" />
           <entry key="Doxygen file" value="2" />
           <entry key="LLDBCommands" value="4" />
           <entry key="Markdown" value="7171" />
-          <entry key="ObjectiveC" value="102356" />
+          <entry key="ObjectiveC" value="103663" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -152,11 +151,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/essential/pi.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="215">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/essential/calc_e.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -197,8 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+            <state relative-caret-position="539">
+              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -220,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/c4/README.md" />
         <option value="$PROJECT_DIR$/c5/main5.c" />
         <option value="$PROJECT_DIR$/draft/README.md" />
         <option value="$PROJECT_DIR$/c5/main.c" />
@@ -269,8 +276,9 @@
         <option value="$PROJECT_DIR$/c6/array4.c" />
         <option value="$PROJECT_DIR$/c6/array5.c" />
         <option value="$PROJECT_DIR$/essential/fibs.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/essential/pi.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/essential/calc_e.c" />
       </list>
     </option>
   </component>
@@ -339,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.pi">
+  <component name="RunManager" selected="Application.calc_e">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -381,6 +389,11 @@
       </method>
     </configuration>
     <configuration name="bubblesort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="bubblesort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="bubblesort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calc_e" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trainc" TARGET_NAME="calc_e" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trainc" RUN_TARGET_NAME="calc_e">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -510,6 +523,7 @@
       <item itemvalue="Application.binhex" />
       <item itemvalue="Application.bsearch" />
       <item itemvalue="Application.bubblesort" />
+      <item itemvalue="Application.calc_e" />
       <item itemvalue="Application.case" />
       <item itemvalue="Application.daffodils" />
       <item itemvalue="Application.declare" />
@@ -569,12 +583,12 @@
       <workItem from="1544763923163" duration="11864000" />
       <workItem from="1544858282770" duration="22967000" />
       <workItem from="1545016100379" duration="2432000" />
-      <workItem from="1545638313448" duration="1201000" />
+      <workItem from="1545638313448" duration="2509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178424000" />
+    <option name="totallyTimeSpent" value="179732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -609,13 +623,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/c5/calccet.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c5/cet6_words.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -781,6 +788,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -926,13 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/essential/prime.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -942,8 +945,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/essential/pi.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="215">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/essential/calc_e.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

@@ -61,5 +61,6 @@ add_executable(case essential/case.c)
 add_executable(strrevert essential/strrevert.c)
 add_executable(fibs essential/fibs.c)
 add_executable(pi essential/pi.c)
+add_executable(calc_e essential/calc_e.c)
 
 
