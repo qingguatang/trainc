@@ -59,5 +59,7 @@ add_executable(strsort essential/strsort.c)
 add_executable(palindrome2 essential/palindrome.c)
 add_executable(case essential/case.c)
 add_executable(strrevert essential/strrevert.c)
+add_executable(fibs essential/fibs.c)
+add_executable(pi essential/pi.c)
 
 
