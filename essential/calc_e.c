@@ -21,4 +21,5 @@ double e_pow(int x) {
 
 int main(void) {
   printf("%.10f\n", e_pow(1));
+  printf("%.10f\n", e_pow(2));
 }
