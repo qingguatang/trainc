@@ -25,3 +25,9 @@
 - 判断回文 [palinodrome.c](palindrome.c)
 - 逆序 [strrevert](strrevert.c)
 - 大小写转换 [case](case.c)
+
+
+## 语句
+- 斐波那契序列 [fibs.c](fibs.c)
+- 求pi [pi.c](pi.c)
+- 求e [calc_e.c](calc_e.c)
